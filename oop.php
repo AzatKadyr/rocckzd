@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+//ss
 //* Подключаемые библиотеки
 require_once 'db_connect.php';
 include "libs/qr/qrlib.php";
