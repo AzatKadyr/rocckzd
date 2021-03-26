@@ -1,0 +1,6220 @@
+GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'auth',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'auth',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'deletesession',
+  'id' => '24',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'deletesession',
+  'id' => '23',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'auth',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-21 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-21 23:59:59',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'telegram',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-21 23:59:59',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'proverka',
+  'restid' => '888',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'proverka',
+  'restid' => '888',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-21 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'proverka',
+  'restid' => '888',
+)GET array (
+  'type' => 'proverka',
+  'restid' => '12345555',
+)GET array (
+  'type' => 'proverka',
+  'restid' => '127125',
+)GET array (
+  'type' => 'proverka',
+  'restid' => '123456',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'proverka',
+  'restid' => '12345555',
+)GET array (
+  'type' => 'startrocc',
+  'restid' => '12345555',
+  'typerocc' => 'obyavlen',
+  'date' => 'Mon Mar 22 2021 01:46:39 GMT+0600 (Восточный Казахстан)',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-21 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-21 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'proverka',
+  'restid' => '888',
+)GET array (
+  'type' => 'startrocc',
+  'restid' => '888',
+  'typerocc' => 'obyavlen',
+  'date' => 'Mon Mar 22 2021 01:48:47 GMT+0600 (Восточный Казахстан)',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '91',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '91',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '91',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '91',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '91',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '206',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '206',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '206',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '206',
+  'cat' => '1',
+  'subcat' => '3',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '91',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '91',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '207',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '207',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '207',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '207',
+  'cat' => '1',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '91',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '91',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '208',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '208',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '208',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '208',
+  'cat' => '1',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '91',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '91',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '209',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '209',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '209',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '209',
+  'cat' => '1',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '91',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '91',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '210',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '210',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '210',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '210',
+  'cat' => '1',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '91',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '91',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '211',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '211',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '211',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '211',
+  'cat' => '1',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '91',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '91',
+)GET array (
+  'type' => 'saveotkl',
+  'id' => '206',
+  'mintext' => 'Текст',
+  'fulltext' => 'Текст',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '91',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '91',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '91',
+  'value' => 'final',
+  'result' => '2',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-21 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '91',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '91',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '91',
+)GET array (
+  'type' => 'generatepdf',
+  'typepdf' => 'reportpdf',
+  'reportid' => '91',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '91',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '91',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '91',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-21 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'deletesession',
+  'id' => '25',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'auth',
+  'userid' => '3',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '3',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '3',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-21 23:59:59',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-21 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'proverka',
+  'restid' => '123455559',
+)GET array (
+  'type' => 'startrocc',
+  'restid' => '123455559',
+  'typerocc' => 'obyavlen',
+  'date' => 'Mon Mar 22 2021 01:52:18 GMT+0600 (Восточный Казахстан)',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '92',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '92',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '92',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '3',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '3',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '3',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '3',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-21 23:59:59',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '92',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '92',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '92',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '92',
+  'value' => 'final',
+  'result' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '92',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '92',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '92',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'auth',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'auth',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-22 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'start',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-22 23:59:59',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'final',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-22 23:59:59',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'telegram',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-22 23:59:59',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-22 23:59:59',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-22 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'proverka',
+  'restid' => '888',
+)GET array (
+  'type' => 'startrocc',
+  'restid' => '888',
+  'typerocc' => 'obyavlen',
+  'date' => 'Mon Mar 22 2021 14:28:03 GMT+0600 (Восточный Казахстан)',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '93',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '93',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '93',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-22 23:59:59',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'generatetoken',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-22 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'proverka',
+  'restid' => '888',
+)GET array (
+  'type' => 'proverka',
+  'restid' => '12345',
+)GET array (
+  'type' => 'startrocc',
+  'restid' => '12345',
+  'typerocc' => 'obyavlen',
+  'date' => 'Mon Mar 22 2021 15:05:09 GMT+0600 (Восточный Казахстан)',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '94',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '94',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '94',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '94',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '94',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-22 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'deletesession',
+  'id' => '27',
+)GET array (
+  'type' => 'deletesession',
+  'id' => '27',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-22 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-22 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'proverka',
+  'restid' => '',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '1287193',
+  'email' => '9677226@mail.ru',
+  'restname' => 'Новый ресторан',
+  'restmng' => '',
+  'adress' => 'sasdadsasdasd',
+)GET array (
+  'type' => 'getrestcompany',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'proverka',
+  'restid' => '1287193',
+)GET array (
+  'type' => 'startrocc',
+  'restid' => '1287193',
+  'typerocc' => 'obyavlen',
+  'date' => 'Mon Mar 22 2021 22:24:10 GMT+0600 (Восточный Казахстан)',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '213',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '213',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '213',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '213',
+  'cat' => '1',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '214',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '214',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '214',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '214',
+  'cat' => '1',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '218',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '218',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '218',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '218',
+  'cat' => '1',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '217',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '217',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '217',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '217',
+  'cat' => '1',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '216',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '216',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '216',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '216',
+  'cat' => '1',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '215',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '215',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '215',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '215',
+  'cat' => '1',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '220',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '220',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '220',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '220',
+  'cat' => '1',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '219',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '219',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '219',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '219',
+  'cat' => '1',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '221',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '221',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '221',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '221',
+  'cat' => '1',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '222',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '222',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '222',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '222',
+  'cat' => '1',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '223',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '223',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '223',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '223',
+  'cat' => '1',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '223',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '223',
+  'catid' => '1',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '223',
+  'catid' => '4',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '223',
+  'cat' => '4',
+  'subcat' => '5',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '222',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '222',
+  'catid' => '1',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '222',
+  'catid' => '4',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '222',
+  'cat' => '4',
+  'subcat' => '5',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '213',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '213',
+  'catid' => '1',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '213',
+  'catid' => '4',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '213',
+  'cat' => '4',
+  'subcat' => '5',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '221',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '221',
+  'catid' => '1',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '221',
+  'catid' => '4',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '221',
+  'cat' => '4',
+  'subcat' => '5',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '221',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '221',
+  'catid' => '4',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '221',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '221',
+  'cat' => '1',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '223',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '223',
+  'catid' => '4',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '223',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '223',
+  'cat' => '1',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '213',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '213',
+  'catid' => '4',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '213',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '213',
+  'cat' => '1',
+  'subcat' => '5',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '213',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '213',
+  'cat' => '1',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'proverka',
+  'restid' => '1287193',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '95',
+  'value' => 'final',
+  'result' => '2',
+)GET array (
+  'type' => 'saveotkl',
+  'id' => '213',
+  'mintext' => '5555555555555',
+  'fulltext' => '55555555555555555555555555',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '95',
+  'value' => 'final',
+  'result' => '2',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'generatepdf',
+  'typepdf' => 'reportpdf',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '95',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '95',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'proverka',
+  'restid' => '1287193',
+)GET array (
+  'type' => 'startrocc',
+  'restid' => '1287193',
+  'typerocc' => 'obyavlen',
+  'date' => 'Tue Mar 23 2021 23:34:47 GMT+0600 (Восточный Казахстан)',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '96',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '96',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '96',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '96',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '96',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '96',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'proverka',
+  'restid' => '1287193',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '96',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '96',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '96',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '96',
+  'value' => 'final',
+  'result' => '1',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '96',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '96',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '96',
+  'value' => 'final',
+  'result' => '1',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '224',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '224',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '224',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '224',
+  'cat' => '1',
+  'subcat' => '3',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '96',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '96',
+)GET array (
+  'type' => 'saveotkl',
+  'id' => '224',
+  'mintext' => 'sddsssssssss',
+  'fulltext' => '',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '96',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '96',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '96',
+  'value' => 'final',
+  'result' => '2',
+)GET array (
+  'type' => 'saveotkl',
+  'id' => '224',
+  'mintext' => 'sddsssssssss',
+  'fulltext' => '5555555555555555555555555555555555555555',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '96',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '96',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '96',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '96',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '96',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '96',
+  'value' => 'final',
+  'result' => '2',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'proverka',
+  'restid' => '1287193',
+)GET array (
+  'type' => 'startrocc',
+  'restid' => '1287193',
+  'typerocc' => 'obyavlen',
+  'date' => 'Tue Mar 23 2021 23:43:51 GMT+0600 (Восточный Казахстан)',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '97',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '97',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '97',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '97',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '97',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '97',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '97',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '97',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '97',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'proverka',
+  'restid' => '1287193',
+)GET array (
+  'type' => 'startrocc',
+  'restid' => '1287193',
+  'typerocc' => 'obyavlen',
+  'date' => 'Tue Mar 23 2021 23:45:34 GMT+0600 (Восточный Казахстан)',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '98',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '98',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '98',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '12345555',
+  'email' => '9677226@mail.ru',
+  'restname' => 'КФС Шымкентxxz',
+  'restmng' => '1',
+  'adress' => '',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '12712967',
+  'email' => '9677226@mail.ru',
+  'restname' => 'КФС Шымкентxxz',
+  'restmng' => '2',
+  'adress' => 'sasdadsasdasd',
+)GET array (
+  'type' => 'getrestcompany',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'auth',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '12712',
+  'email' => '9677226@mail.ru',
+  'restname' => 'Тестовый ресторан',
+  'restmng' => '',
+  'adress' => '',
+)GET array (
+  'type' => 'getrestcompany',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '12345555',
+  'email' => '',
+  'restname' => 'sdsdsd',
+  'restmng' => '',
+  'adress' => '',
+)GET array (
+  'type' => 'getrestcompany',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '12345555',
+  'email' => 'sdsdsdsd',
+  'restname' => 'sdsdsd',
+  'restmng' => '',
+  'adress' => '',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '12345555455',
+  'email' => 'sdsdsdsd',
+  'restname' => 'sdsdsd',
+  'restmng' => '',
+  'adress' => '',
+)GET array (
+  'type' => 'getrestcompany',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '12345555455d',
+  'email' => 'sdsdsdsd',
+  'restname' => 'sdsdsd',
+  'restmng' => '',
+  'adress' => '',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '12345555455d',
+  'email' => 'sdsdsdsd',
+  'restname' => 'sdsdsdddd',
+  'restmng' => '',
+  'adress' => '',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '12345555455d',
+  'email' => 'sdsdsdsd',
+  'restname' => 'sdsdsdddd',
+  'restmng' => '',
+  'adress' => '',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '12345555',
+  'email' => '9677226@mail.ru',
+  'restname' => 'Ресторан',
+  'restmng' => '1',
+  'adress' => 'sasdadsasdasd',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '89',
+  'email' => '9677226@mail.ru',
+  'restname' => 'Ресторан',
+  'restmng' => '1',
+  'adress' => 'sasdadsasdasd',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '89',
+  'email' => '9677226@mail.ru',
+  'restname' => 'Ресторан',
+  'restmng' => '1',
+  'adress' => 'sasdadsasdasd',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '89',
+  'email' => '9677226@mail.ru',
+  'restname' => 'Ресторан',
+  'restmng' => '1',
+  'adress' => 'sasdadsasdasd',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '89',
+  'email' => '9677226@mail.ru',
+  'restname' => 'Ресторан',
+  'restmng' => '1',
+  'adress' => 'sasdadsasdasd',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '89',
+  'email' => '9677226@mail.ru',
+  'restname' => 'Ресторан',
+  'restmng' => '1',
+  'adress' => 'sasdadsasdasd',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '89',
+  'email' => '9677226@mail.ru',
+  'restname' => 'Ресторан',
+  'restmng' => '1',
+  'adress' => 'sasdadsasdasd',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '89',
+  'email' => '9677226@mail.ru',
+  'restname' => 'Ресторан',
+  'restmng' => '1',
+  'adress' => 'sasdadsasdasd',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '89',
+  'email' => '9677226@mail.ru',
+  'restname' => 'Ресторан',
+  'restmng' => '1',
+  'adress' => 'sasdadsasdasd',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '89',
+  'email' => '9677226@mail.ru',
+  'restname' => 'Ресторан',
+  'restmng' => '1',
+  'adress' => 'sasdadsasdasd',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '89',
+  'email' => '9677226@mail.ru',
+  'restname' => 'Ресторан',
+  'restmng' => '1',
+  'adress' => 'sasdadsasdasd',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '89',
+  'email' => '9677226@mail.ru',
+  'restname' => 'Ресторан',
+  'restmng' => '1',
+  'adress' => 'sasdadsasdasd',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '89',
+  'email' => '9677226@mail.ru',
+  'restname' => 'Ресторан',
+  'restmng' => '1',
+  'adress' => 'sasdadsasdasd',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '89',
+  'email' => '9677226@mail.ru',
+  'restname' => 'Ресторан',
+  'restmng' => '1',
+  'adress' => 'sasdadsasdasd',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '89',
+  'email' => '9677226@mail.ru',
+  'restname' => 'Ресторан',
+  'restmng' => '1',
+  'adress' => 'sasdadsasdasd',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '89',
+  'email' => '9677226@mail.ru',
+  'restname' => 'Ресторан',
+  'restmng' => '1',
+  'adress' => 'sasdadsasdasd',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '89',
+  'email' => '9677226@mail.ru',
+  'restname' => 'Ресторан',
+  'restmng' => '1',
+  'adress' => 'sasdadsasdasd',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '89',
+  'email' => '9677226@mail.ru',
+  'restname' => 'Ресторан',
+  'restmng' => '1',
+  'adress' => 'sasdadsasdasd',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '89',
+  'email' => '9677226@mail.ru',
+  'restname' => 'Ресторан',
+  'restmng' => '1',
+  'adress' => 'sasdadsasdasd',
+)GET array (
+  'type' => 'addrest',
+  'restid' => '89',
+  'email' => '9677226@mail.ru',
+  'restname' => 'Ресторан',
+  'restmng' => '1',
+  'adress' => 'sasdadsasdasd',
+)GET array (
+  'type' => 'getrestcompany',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'proverka',
+  'restid' => '89',
+)GET array (
+  'type' => 'startrocc',
+  'restid' => '89',
+  'typerocc' => 'obyavlen',
+  'date' => 'Wed Mar 24 2021 00:02:16 GMT+0600 (Восточный Казахстан)',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '1',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '1',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '1',
+  'catid' => '4',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '1',
+  'cat' => '4',
+  'subcat' => '7',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'saveotkl',
+  'id' => '1',
+  'mintext' => 'jkjkkjjk',
+  'fulltext' => 'jkkjjkjkjkjk',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'final',
+  'result' => '2',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserinfo',
+  'userid' => '1',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'azatt',
+)GET array (
+  'type' => 'azatt',
+)GET array (
+  'type' => 'azatt',
+)GET array (
+  'type' => 'azatt',
+)GET array (
+  'type' => 'azatt',
+)GET array (
+  'type' => 'azatt',
+)GET array (
+  'type' => 'azatt',
+)GET array (
+  'type' => 'azatt',
+)GET array (
+  'type' => 'azatt',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'start',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'final',
+  'result' => '2',
+)GET array (
+  'type' => 'saveotkl',
+  'id' => '1',
+  'mintext' => 'dd',
+  'fulltext' => 'ddd',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'final',
+  'result' => '2',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'saveotkl',
+  'id' => '2',
+  'mintext' => 'sdsdsd',
+  'fulltext' => 'sddssdsd',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'final',
+  'result' => '2',
+)GET array (
+  'type' => 'saveotkl',
+  'id' => '3',
+  'mintext' => 'sdsdsd',
+  'fulltext' => 'sdsdsdsd',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'saveotkl',
+  'id' => '4',
+  'mintext' => 'sdsdsd',
+  'fulltext' => 'sdsdsd',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'saveotkl',
+  'id' => '5',
+  'mintext' => 'sdsdsd',
+  'fulltext' => 'sdsdds',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'saveotkl',
+  'id' => '6',
+  'mintext' => 'sdsdsd',
+  'fulltext' => 'sddssd',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'final',
+  'result' => '2',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'final',
+  'result' => '2',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '2',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '2',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '2',
+  'catid' => '4',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '2',
+  'cat' => '4',
+  'subcat' => '5',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '3',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '3',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '3',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '3',
+  'cat' => '1',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '4',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '4',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '4',
+  'catid' => '4',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '4',
+  'cat' => '4',
+  'subcat' => '5',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '5',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '5',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '5',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '5',
+  'cat' => '1',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '6',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '6',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '6',
+  'catid' => '1',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '6',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '6',
+  'cat' => '9',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'final',
+  'result' => '2',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'final',
+  'result' => '2',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'start',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '2',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '2',
+  'catid' => '4',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'saveotkl',
+  'id' => '7',
+  'mintext' => 'ewewwe',
+  'fulltext' => 'ewewwewe',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'final',
+  'result' => '2',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '7',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '7',
+  'catid' => '9',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '7',
+  'catid' => '1',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '7',
+  'cat' => '1',
+  'subcat' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'final',
+  'result' => '2',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'start',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'saveotkl',
+  'id' => '6',
+  'mintext' => '99999999999999',
+  'fulltext' => 'sddssd',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'azatt',
+)GET array (
+  'type' => 'azatt',
+)GET array (
+  'type' => 'azatt',
+)GET array (
+  'type' => 'azatt',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'final',
+  'result' => '2',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'final',
+  'result' => '2',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '6',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '6',
+  'catid' => '4',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '6',
+  'catid' => '4',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '6',
+  'cat' => '4',
+  'subcat' => '5',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'final',
+  'result' => '2',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'start',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-23 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'auth',
+  'userid' => '1',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-24 23:59:59',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-24 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'generatetoken',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'auth',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'proverka',
+  'restid' => '12712',
+)GET array (
+  'type' => 'startrocc',
+  'restid' => '12712',
+  'typerocc' => 'obyavlen',
+  'date' => 'Thu Mar 25 2021 09:54:42 GMT+0600 (Восточный Казахстан)',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '2',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '2',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '2',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-25 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-25 23:59:59',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'saveotkl',
+  'id' => '1',
+  'mintext' => 'dd',
+  'fulltext' => '',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'final',
+  'result' => '2',
+)GET array (
+  'type' => 'saveotkl',
+  'id' => '1',
+  'mintext' => '',
+  'fulltext' => '',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'final',
+  'result' => '2',
+)GET array (
+  'type' => 'getlevel',
+  'id' => '1',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '1',
+  'catid' => '4',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '1',
+  'catid' => '1',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '1',
+  'catid' => '1',
+)GET array (
+  'type' => 'getsubcat',
+  'otklid' => '1',
+  'catid' => '4',
+)GET array (
+  'type' => 'saveotkllevel',
+  'id' => '1',
+  'cat' => '4',
+  'subcat' => '5',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'final',
+  'result' => '1',
+)GET array (
+  'type' => 'saveotkl',
+  'id' => '5',
+  'mintext' => 'sdsdsd',
+  'fulltext' => '',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'saveotkl',
+  'id' => '1',
+  'mintext' => 'dsd',
+  'fulltext' => 'sdsdds',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'final',
+  'result' => '1',
+)GET array (
+  'type' => 'saveotkl',
+  'id' => '5',
+  'mintext' => 'sdsdsd',
+  'fulltext' => 'sddsdssddsdssd',
+)GET array (
+  'type' => 'saveotkl',
+  'id' => '5',
+  'mintext' => 'sdsdsd',
+  'fulltext' => 'sddsds',
+)GET array (
+  'type' => 'saveotkl',
+  'id' => '5',
+  'mintext' => 'sdsdsd',
+  'fulltext' => 'sddsdssddsdssd',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-25 23:59:59',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '2',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '2',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '2',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '2',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-25 23:59:59',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'start',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-25 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'saveotkl',
+  'id' => '4',
+  'mintext' => 'sdsdsd',
+  'fulltext' => '',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'editrocc',
+  'reportid' => '1',
+  'value' => 'final',
+  'result' => '1',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-25 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '2',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '2',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '2',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-25 23:59:59',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'auth',
+  'userid' => '1',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+  'datea' => '2021-03-01 00:00:00',
+  'dateb' => '2021-03-26 23:59:59',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'getrocc',
+)GET array (
+  'type' => 'countreportbb',
+  'reportid' => '1',
+)GET array (
+  'type' => 'countreport',
+)GET array (
+  'type' => 'getrestcompany',
+  'typed' => 'all',
+)GET array (
+  'type' => 'getspisok',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '2',
+)GET array (
+  'type' => 'getuserlist',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '2',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '2',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '2',
+)GET array (
+  'type' => 'getrocc',
+  'reportid' => '2',
+)GET array (
+  'type' => 'countreport',
+  'reportid' => '2',
+)

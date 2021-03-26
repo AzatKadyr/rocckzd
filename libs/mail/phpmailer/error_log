@@ -1,0 +1,8 @@
+[16-Dec-2018 22:38:56 Europe/Moscow] PHP Warning:  Missing argument 1 for PHPMailer::addAttachment(), called in /home/user5990/wifi.rabotavkfc.kz/app/test/index.php on line 28 and defined in /home/user5990/wifi.rabotavkfc.kz/app/test/phpmailer/class.phpmailer.php on line 2049
+[16-Dec-2018 22:38:56 Europe/Moscow] PHP Notice:  Undefined variable: path in /home/user5990/wifi.rabotavkfc.kz/app/test/phpmailer/class.phpmailer.php on line 2053
+[16-Dec-2018 22:50:33 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/wifi.rabotavkfc.kz/app/test/index.php on line 24
+[16-Dec-2018 22:50:33 Europe/Moscow] PHP Warning:  Missing argument 1 for PHPMailer::addAttachment(), called in /home/user5990/wifi.rabotavkfc.kz/app/test/index.php on line 29 and defined in /home/user5990/wifi.rabotavkfc.kz/app/test/phpmailer/class.phpmailer.php on line 2049
+[16-Dec-2018 22:50:33 Europe/Moscow] PHP Notice:  Undefined variable: path in /home/user5990/wifi.rabotavkfc.kz/app/test/phpmailer/class.phpmailer.php on line 2053
+[10-Mar-2020 07:19:19 Europe/Moscow] PHP Warning:  require(phpmailer/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/user5990/bb.rabotavkfc.kz/app/mail/phpmailer/index.php on line 3
+[10-Mar-2020 07:19:19 Europe/Moscow] PHP Warning:  require(phpmailer/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/user5990/bb.rabotavkfc.kz/app/mail/phpmailer/index.php on line 3
+[10-Mar-2020 07:19:19 Europe/Moscow] PHP Fatal error:  require(): Failed opening required 'phpmailer/PHPMailerAutoload.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/user5990/bb.rabotavkfc.kz/app/mail/phpmailer/index.php on line 3

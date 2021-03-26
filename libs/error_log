@@ -1,0 +1,161 @@
+[28-Feb-2021 15:18:08 Europe/Moscow] PHP Notice:  Undefined index: authsite in /home/user5990/dev.rocc.kz/functions.php on line 13
+[28-Feb-2021 15:18:08 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/index.php on line 157
+[28-Feb-2021 15:18:08 Europe/Moscow] PHP Notice:  Undefined index: authsite in /home/user5990/dev.rocc.kz/functions.php on line 13
+[28-Feb-2021 15:18:08 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/index.php on line 157
+[28-Feb-2021 15:19:07 Europe/Moscow] PHP Notice:  Undefined index: companyid in /home/user5990/dev.rocc.kz/oop.php on line 25
+[28-Feb-2021 15:19:07 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 27
+[28-Feb-2021 15:19:09 Europe/Moscow] PHP Notice:  Undefined index: companyid in /home/user5990/dev.rocc.kz/oop.php on line 25
+[28-Feb-2021 15:19:09 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 27
+[28-Feb-2021 15:19:10 Europe/Moscow] PHP Notice:  Undefined index: companyid in /home/user5990/dev.rocc.kz/oop.php on line 25
+[28-Feb-2021 15:19:10 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 27
+[28-Feb-2021 15:19:13 Europe/Moscow] PHP Notice:  Undefined index: companyid in /home/user5990/dev.rocc.kz/oop.php on line 25
+[28-Feb-2021 15:19:13 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 27
+[28-Feb-2021 15:19:14 Europe/Moscow] PHP Notice:  Undefined index: companyid in /home/user5990/dev.rocc.kz/oop.php on line 25
+[28-Feb-2021 15:19:14 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 27
+[28-Feb-2021 15:19:16 Europe/Moscow] PHP Notice:  Undefined index: companyid in /home/user5990/dev.rocc.kz/oop.php on line 25
+[28-Feb-2021 15:19:16 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 27
+[28-Feb-2021 15:20:23 Europe/Moscow] PHP Notice:  Undefined index: companyid in /home/user5990/dev.rocc.kz/oop.php on line 25
+[28-Feb-2021 15:20:23 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 27
+[28-Feb-2021 15:21:50 Europe/Moscow] PHP Notice:  Undefined index: companyid in /home/user5990/dev.rocc.kz/oop.php on line 25
+[28-Feb-2021 15:21:50 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 27
+[28-Feb-2021 15:21:50 Europe/Moscow] PHP Fatal error:  Uncaught [23000] - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'company' cannot be null
+trace: #0 /home/user5990/dev.rocc.kz/libs/rb.php(1035): RedBeanPHP\Driver\RPDO->runQuery('INSERT INTO `ro...', Array)
+#1 /home/user5990/dev.rocc.kz/libs/rb.php(1075): RedBeanPHP\Driver\RPDO->GetAll('INSERT INTO `ro...', Array)
+#2 /home/user5990/dev.rocc.kz/libs/rb.php(4244): RedBeanPHP\Driver\RPDO->GetOne('INSERT INTO `ro...', Array)
+#3 /home/user5990/dev.rocc.kz/libs/rb.php(5816): RedBeanPHP\Adapter\DBAdapter->getCell('INSERT INTO `ro...', Array, 0)
+#4 /home/user5990/dev.rocc.kz/libs/rb.php(5943): RedBeanPHP\QueryWriter\AQueryWriter->insertRecord('rocc', Array, Array)
+#5 /home/user5990/dev.rocc.kz/libs/rb.php(9167): RedBeanPHP\QueryWriter\AQueryWriter->updateRecord('rocc', Array, 0)
+#6 /home/user5990/dev.rocc.kz/libs/rb.php(8738): RedBeanPHP\Repository\Fluid->storeBean(Object(RedBeanPHP\OODBBean))
+#7 /home/user5990/dev.rocc.kz/libs/rb.php(9887): RedBeanPHP\Repository->store(Object(RedBeanPHP\OODBBean))
+#8 in /home/user5990/dev.rocc.kz/libs/rb.php on line 768
+[28-Feb-2021 15:22:01 Europe/Moscow] PHP Notice:  Undefined index: companyid in /home/user5990/dev.rocc.kz/oop.php on line 25
+[28-Feb-2021 15:22:01 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 27
+[28-Feb-2021 15:22:01 Europe/Moscow] PHP Fatal error:  Uncaught [23000] - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'company' cannot be null
+trace: #0 /home/user5990/dev.rocc.kz/libs/rb.php(1035): RedBeanPHP\Driver\RPDO->runQuery('INSERT INTO `ro...', Array)
+#1 /home/user5990/dev.rocc.kz/libs/rb.php(1075): RedBeanPHP\Driver\RPDO->GetAll('INSERT INTO `ro...', Array)
+#2 /home/user5990/dev.rocc.kz/libs/rb.php(4244): RedBeanPHP\Driver\RPDO->GetOne('INSERT INTO `ro...', Array)
+#3 /home/user5990/dev.rocc.kz/libs/rb.php(5816): RedBeanPHP\Adapter\DBAdapter->getCell('INSERT INTO `ro...', Array, 0)
+#4 /home/user5990/dev.rocc.kz/libs/rb.php(5943): RedBeanPHP\QueryWriter\AQueryWriter->insertRecord('rocc', Array, Array)
+#5 /home/user5990/dev.rocc.kz/libs/rb.php(9167): RedBeanPHP\QueryWriter\AQueryWriter->updateRecord('rocc', Array, 0)
+#6 /home/user5990/dev.rocc.kz/libs/rb.php(8738): RedBeanPHP\Repository\Fluid->storeBean(Object(RedBeanPHP\OODBBean))
+#7 /home/user5990/dev.rocc.kz/libs/rb.php(9887): RedBeanPHP\Repository->store(Object(RedBeanPHP\OODBBean))
+#8 in /home/user5990/dev.rocc.kz/libs/rb.php on line 768
+[28-Feb-2021 15:25:41 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/user5990/dev.rocc.kz/oop.php on line 14
+[28-Feb-2021 15:25:43 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/user5990/dev.rocc.kz/oop.php on line 14
+[28-Feb-2021 15:25:44 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/user5990/dev.rocc.kz/oop.php on line 14
+[28-Feb-2021 15:25:56 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 22
+[28-Feb-2021 15:25:56 Europe/Moscow] PHP Notice:  Undefined variable: data in /home/user5990/dev.rocc.kz/oop.php on line 43
+[28-Feb-2021 15:26:20 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 22
+[28-Feb-2021 15:26:20 Europe/Moscow] PHP Notice:  Undefined variable: data in /home/user5990/dev.rocc.kz/oop.php on line 43
+[28-Feb-2021 15:26:49 Europe/Moscow] PHP Notice:  Undefined index: companyid in /home/user5990/dev.rocc.kz/oop.php on line 25
+[28-Feb-2021 15:26:49 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 27
+[28-Feb-2021 15:26:49 Europe/Moscow] PHP Fatal error:  Uncaught [23000] - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'company' cannot be null
+trace: #0 /home/user5990/dev.rocc.kz/libs/rb.php(1035): RedBeanPHP\Driver\RPDO->runQuery('INSERT INTO `ro...', Array)
+#1 /home/user5990/dev.rocc.kz/libs/rb.php(1075): RedBeanPHP\Driver\RPDO->GetAll('INSERT INTO `ro...', Array)
+#2 /home/user5990/dev.rocc.kz/libs/rb.php(4244): RedBeanPHP\Driver\RPDO->GetOne('INSERT INTO `ro...', Array)
+#3 /home/user5990/dev.rocc.kz/libs/rb.php(5816): RedBeanPHP\Adapter\DBAdapter->getCell('INSERT INTO `ro...', Array, 0)
+#4 /home/user5990/dev.rocc.kz/libs/rb.php(5943): RedBeanPHP\QueryWriter\AQueryWriter->insertRecord('rocc', Array, Array)
+#5 /home/user5990/dev.rocc.kz/libs/rb.php(9167): RedBeanPHP\QueryWriter\AQueryWriter->updateRecord('rocc', Array, 0)
+#6 /home/user5990/dev.rocc.kz/libs/rb.php(8738): RedBeanPHP\Repository\Fluid->storeBean(Object(RedBeanPHP\OODBBean))
+#7 /home/user5990/dev.rocc.kz/libs/rb.php(9887): RedBeanPHP\Repository->store(Object(RedBeanPHP\OODBBean))
+#8 in /home/user5990/dev.rocc.kz/libs/rb.php on line 768
+[28-Feb-2021 15:27:02 Europe/Moscow] PHP Notice:  Undefined index: companyid in /home/user5990/dev.rocc.kz/oop.php on line 25
+[28-Feb-2021 15:27:02 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 27
+[28-Feb-2021 15:27:55 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 27
+[28-Feb-2021 15:27:58 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 27
+[28-Feb-2021 15:28:11 Europe/Moscow] PHP Notice:  Undefined index: authsite in /home/user5990/dev.rocc.kz/functions.php on line 13
+[28-Feb-2021 15:28:11 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/index.php on line 157
+[28-Feb-2021 15:28:11 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/page/start.php on line 1
+[28-Feb-2021 15:28:11 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/page/start.php on line 4
+[28-Feb-2021 15:28:13 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/user5990/dev.rocc.kz/oop.php on line 218
+[28-Feb-2021 15:28:13 Europe/Moscow] PHP Notice:  Undefined variable: data in /home/user5990/dev.rocc.kz/oop.php on line 222
+[28-Feb-2021 16:04:00 Europe/Moscow] PHP Notice:  Undefined index: authsite in /home/user5990/dev.rocc.kz/functions.php on line 13
+[28-Feb-2021 16:04:00 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/index.php on line 157
+[28-Feb-2021 16:04:00 Europe/Moscow] PHP Notice:  Undefined index: authsite in /home/user5990/dev.rocc.kz/functions.php on line 13
+[28-Feb-2021 16:04:00 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/index.php on line 157
+[28-Feb-2021 16:04:02 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/user5990/dev.rocc.kz/oop.php on line 218
+[28-Feb-2021 16:04:02 Europe/Moscow] PHP Notice:  Undefined variable: data in /home/user5990/dev.rocc.kz/oop.php on line 222
+[28-Feb-2021 16:04:07 Europe/Moscow] PHP Notice:  Undefined index: authsite in /home/user5990/dev.rocc.kz/functions.php on line 13
+[28-Feb-2021 16:04:07 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/index.php on line 157
+[28-Feb-2021 16:04:07 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/page/start.php on line 1
+[28-Feb-2021 16:04:07 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/page/start.php on line 4
+[28-Feb-2021 16:04:08 Europe/Moscow] PHP Notice:  Undefined index: authsite in /home/user5990/dev.rocc.kz/functions.php on line 13
+[28-Feb-2021 16:04:08 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/index.php on line 157
+[28-Feb-2021 16:04:08 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/page/start.php on line 1
+[28-Feb-2021 16:04:08 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/page/start.php on line 4
+[28-Feb-2021 16:04:10 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/user5990/dev.rocc.kz/oop.php on line 218
+[28-Feb-2021 16:04:10 Europe/Moscow] PHP Notice:  Undefined variable: data in /home/user5990/dev.rocc.kz/oop.php on line 222
+[28-Feb-2021 16:08:22 Europe/Moscow] PHP Notice:  Undefined index: authsite in /home/user5990/dev.rocc.kz/functions.php on line 13
+[28-Feb-2021 16:08:22 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/index.php on line 157
+[28-Feb-2021 16:08:29 Europe/Moscow] PHP Parse error:  syntax error, unexpected '}' in /home/user5990/dev.rocc.kz/oop.php on line 64
+[28-Feb-2021 16:09:22 Europe/Moscow] PHP Notice:  Undefined index: authsite in /home/user5990/dev.rocc.kz/functions.php on line 13
+[28-Feb-2021 16:09:22 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/index.php on line 157
+[28-Feb-2021 16:09:23 Europe/Moscow] PHP Notice:  Undefined index: authsite in /home/user5990/dev.rocc.kz/functions.php on line 13
+[28-Feb-2021 16:09:23 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/index.php on line 157
+[28-Feb-2021 16:09:23 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/page/start.php on line 1
+[28-Feb-2021 16:09:23 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/page/start.php on line 4
+[28-Feb-2021 16:09:24 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/user5990/dev.rocc.kz/oop.php on line 226
+[28-Feb-2021 16:09:24 Europe/Moscow] PHP Notice:  Undefined variable: data in /home/user5990/dev.rocc.kz/oop.php on line 230
+[28-Feb-2021 16:10:51 Europe/Moscow] PHP Notice:  Undefined index: authsite in /home/user5990/dev.rocc.kz/functions.php on line 13
+[28-Feb-2021 16:10:51 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/index.php on line 157
+[28-Feb-2021 16:10:51 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/page/start.php on line 1
+[28-Feb-2021 16:10:51 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/page/start.php on line 4
+[28-Feb-2021 16:10:52 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/user5990/dev.rocc.kz/oop.php on line 219
+[28-Feb-2021 16:10:52 Europe/Moscow] PHP Notice:  Undefined variable: data in /home/user5990/dev.rocc.kz/oop.php on line 223
+[28-Feb-2021 16:13:12 Europe/Moscow] PHP Notice:  Undefined index: authsite in /home/user5990/dev.rocc.kz/functions.php on line 13
+[28-Feb-2021 16:13:12 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/index.php on line 157
+[28-Feb-2021 16:13:12 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/page/start.php on line 1
+[28-Feb-2021 16:13:12 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/page/start.php on line 4
+[28-Feb-2021 16:13:16 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/user5990/dev.rocc.kz/oop.php on line 219
+[28-Feb-2021 16:13:16 Europe/Moscow] PHP Notice:  Undefined variable: data in /home/user5990/dev.rocc.kz/oop.php on line 223
+[28-Feb-2021 16:13:23 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 34
+[28-Feb-2021 16:13:46 Europe/Moscow] PHP Notice:  Undefined index: authsite in /home/user5990/dev.rocc.kz/functions.php on line 13
+[28-Feb-2021 16:13:46 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/index.php on line 157
+[28-Feb-2021 16:13:46 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/page/start.php on line 1
+[28-Feb-2021 16:13:46 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/page/start.php on line 4
+[28-Feb-2021 16:13:48 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/user5990/dev.rocc.kz/oop.php on line 219
+[28-Feb-2021 16:13:48 Europe/Moscow] PHP Notice:  Undefined variable: data in /home/user5990/dev.rocc.kz/oop.php on line 223
+[28-Feb-2021 16:13:49 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 34
+[28-Feb-2021 16:15:03 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 34
+[28-Feb-2021 16:16:22 Europe/Moscow] PHP Notice:  Undefined index: authsite in /home/user5990/dev.rocc.kz/functions.php on line 13
+[28-Feb-2021 16:16:22 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/index.php on line 157
+[28-Feb-2021 16:16:22 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/page/start.php on line 1
+[28-Feb-2021 16:16:22 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/page/start.php on line 4
+[28-Feb-2021 18:25:18 Europe/Moscow] PHP Notice:  Undefined index: authsite in /home/user5990/dev.rocc.kz/functions.php on line 13
+[28-Feb-2021 18:25:18 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/index.php on line 157
+[28-Feb-2021 18:25:18 Europe/Moscow] PHP Notice:  Undefined index: authsite in /home/user5990/dev.rocc.kz/functions.php on line 13
+[28-Feb-2021 18:25:18 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/index.php on line 157
+[28-Feb-2021 18:25:20 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/user5990/dev.rocc.kz/oop.php on line 219
+[28-Feb-2021 18:25:20 Europe/Moscow] PHP Notice:  Undefined variable: data in /home/user5990/dev.rocc.kz/oop.php on line 223
+[28-Feb-2021 18:25:30 Europe/Moscow] PHP Notice:  Undefined index: authsite in /home/user5990/dev.rocc.kz/functions.php on line 13
+[28-Feb-2021 18:25:30 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/index.php on line 157
+[28-Feb-2021 18:25:30 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/page/start.php on line 1
+[28-Feb-2021 18:25:30 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/page/start.php on line 4
+[28-Feb-2021 18:25:32 Europe/Moscow] PHP Notice:  Undefined index: authsite in /home/user5990/dev.rocc.kz/functions.php on line 13
+[28-Feb-2021 18:25:32 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/index.php on line 157
+[28-Feb-2021 18:25:32 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/page/start.php on line 1
+[28-Feb-2021 18:25:32 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/page/start.php on line 4
+[28-Feb-2021 18:25:34 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/user5990/dev.rocc.kz/oop.php on line 219
+[28-Feb-2021 18:25:34 Europe/Moscow] PHP Notice:  Undefined variable: data in /home/user5990/dev.rocc.kz/oop.php on line 223
+[28-Feb-2021 18:25:37 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 34
+[28-Feb-2021 18:25:52 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 34
+[28-Feb-2021 18:25:58 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 34
+[28-Feb-2021 18:26:57 Europe/Moscow] PHP Notice:  Undefined index: authsite in /home/user5990/dev.rocc.kz/functions.php on line 13
+[28-Feb-2021 18:26:57 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/index.php on line 157
+[28-Feb-2021 18:26:57 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/page/start.php on line 1
+[28-Feb-2021 18:26:57 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/page/start.php on line 4
+[28-Feb-2021 18:26:59 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/user5990/dev.rocc.kz/oop.php on line 219
+[28-Feb-2021 18:26:59 Europe/Moscow] PHP Notice:  Undefined variable: data in /home/user5990/dev.rocc.kz/oop.php on line 223
+[28-Feb-2021 18:27:06 Europe/Moscow] PHP Notice:  Undefined index: authsite in /home/user5990/dev.rocc.kz/functions.php on line 13
+[28-Feb-2021 18:27:06 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/index.php on line 157
+[28-Feb-2021 18:27:06 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/page/start.php on line 1
+[28-Feb-2021 18:27:06 Europe/Moscow] PHP Notice:  Undefined index: name in /home/user5990/dev.rocc.kz/page/start.php on line 4
+[28-Feb-2021 18:27:07 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/user5990/dev.rocc.kz/oop.php on line 219
+[28-Feb-2021 18:27:07 Europe/Moscow] PHP Notice:  Undefined variable: data in /home/user5990/dev.rocc.kz/oop.php on line 223
+[28-Feb-2021 18:27:53 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 34
+[28-Feb-2021 18:27:55 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 34
+[28-Feb-2021 18:27:55 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 34
+[28-Feb-2021 18:27:55 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 34
+[28-Feb-2021 18:27:56 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 34
+[28-Feb-2021 18:27:56 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 34
+[28-Feb-2021 18:27:56 Europe/Moscow] PHP Notice:  Undefined index: userid in /home/user5990/dev.rocc.kz/oop.php on line 34

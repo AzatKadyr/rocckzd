@@ -1,0 +1,252 @@
+POST array (
+  'notification_type' => 'card-incoming',
+  'bill_id' => '',
+  'amount' => '1.96',
+  'codepro' => 'false',
+  'withdraw_amount' => '2.00',
+  'unaccepted' => 'false',
+  'label' => '1',
+  'datetime' => '2020-12-30T05:42:52Z',
+  'sender' => '',
+  'sha1_hash' => '265441fa1a5773f9b14f09cfdd36988c8da45f8c',
+  'operation_label' => '277e2716-0011-5000-9000-1ce934f5be5b',
+  'operation_id' => '662622172909002408',
+  'currency' => '643',
+)POST array (
+  'notification_type' => 'card-incoming',
+  'bill_id' => '',
+  'amount' => '1.96',
+  'codepro' => 'false',
+  'withdraw_amount' => '2.00',
+  'unaccepted' => 'false',
+  'label' => '1',
+  'datetime' => '2020-12-30T05:52:51Z',
+  'sender' => '',
+  'sha1_hash' => '44a775e67d66ff0bbf2c875d34793daf56c18f87',
+  'operation_label' => '277e296c-0011-5000-9000-18a707776036',
+  'operation_id' => '662622771105027112',
+  'currency' => '643',
+)POST array (
+  'notification_type' => 'card-incoming',
+  'bill_id' => '',
+  'amount' => '1.96',
+  'codepro' => 'false',
+  'withdraw_amount' => '2.00',
+  'unaccepted' => 'false',
+  'label' => '1',
+  'datetime' => '2020-12-30T05:54:59Z',
+  'sender' => '',
+  'sha1_hash' => 'ae40ea95c4f2204bb4b50f2f6d520dcfd4552042',
+  'operation_label' => '277e29ed-0011-5000-a000-16b0d929f6c6',
+  'operation_id' => '662622899739002404',
+  'currency' => '643',
+)POST array (
+  'id' => '2',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '2',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '2',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '2',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '2',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '2',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '1',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '1',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '1',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '1',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '1',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '1',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '1',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '3',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '4',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '17',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '1',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '2',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '1',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '21',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '1',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '22',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '23',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '24',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '24',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'id' => '23',
+  'uploadphoto' => 'Загрузить файл!',
+)POST array (
+  'admin' => '6324',
+  'restid' => 'Тестовый ресторан',
+  'date' => '2021-02-12',
+  'vid' => 'Объявленный',
+  'startrocc' => '',
+)POST array (
+  'admin' => '6324',
+  'restid' => 'Тестовый ресторан',
+  'date' => '2021-02-12',
+  'vid' => 'Объявленный',
+  'startrocc' => '',
+)POST array (
+  'admin' => '6324',
+  'restid' => 'Тестовый ресторан',
+  'date' => '2021-02-12',
+  'vid' => 'Объявленный',
+  'startrocc' => '',
+)POST array (
+  'admin' => '6324',
+  'restid' => 'Тестовый ресторан',
+  'date' => '2021-02-12',
+  'vid' => 'Объявленный',
+  'startrocc' => '',
+)POST array (
+  'admin' => '6324',
+  'restid' => 'Тестовый ресторан',
+  'date' => '2021-02-12',
+  'vid' => 'Объявленный',
+  'startrocc' => '',
+)POST array (
+  'admin' => '6324',
+  'restid' => 'Тестовый ресторан',
+  'date' => '2021-02-12',
+  'vid' => 'Объявленный',
+  'startrocc' => '',
+)POST array (
+  'admin' => '6324',
+  'restid' => 'Тестовый ресторан',
+  'date' => '2021-02-12',
+  'vid' => 'Объявленный',
+  'startrocc' => '',
+)POST array (
+  'admin' => '6324',
+  'restid' => 'Тестовый ресторан',
+  'date' => '2021-02-12',
+  'vid' => 'Объявленный',
+  'startrocc' => '',
+)POST array (
+  'admin' => '6324',
+  'restid' => 'Тестовый ресторан',
+  'date' => '2021-02-12',
+  'vid' => 'Объявленный',
+  'startrocc' => '',
+)POST array (
+  'admin' => '6324',
+  'restid' => 'Тестовый ресторан',
+  'date' => '2021-02-12',
+  'vid' => 'Объявленный',
+  'startrocc' => '',
+)POST array (
+  'admin' => '6324',
+  'restid' => '9677226',
+  'date' => '2021-02-12',
+  'vid' => 'Объявленный',
+  'startrocc' => '',
+)POST array (
+  'admin' => '',
+  'restid' => '9677226',
+  'date' => '2021-02-13',
+  'vid' => 'Объявленный',
+  'startrocc' => '',
+)POST array (
+  'admin' => '6324',
+  'restid' => '9677226',
+  'date' => '2021-02-13',
+  'vid' => 'Объявленный',
+  'startrocc' => '',
+)POST array (
+  'admin' => '',
+  'restid' => '9677226',
+  'date' => '2021-02-15',
+  'vid' => 'Объявленный',
+  'startrocc' => '',
+)POST array (
+  'admin' => '',
+  'restid' => '9677226',
+  'date' => '2021-02-19',
+  'vid' => 'Объявленный',
+  'startrocc' => '',
+)POST array (
+  'admin' => '',
+  'restid' => '9677226',
+  'date' => '2021-02-23',
+  'vid' => 'Объявленный',
+  'startrocc' => '',
+)POST array (
+  'admin' => '',
+  'restid' => '9677226',
+  'date' => '2021-02-23',
+  'vid' => 'Объявленный',
+  'startrocc' => '',
+)POST array (
+  'admin' => '',
+  'restid' => '9677226',
+  'date' => '2021-02-23',
+  'vid' => 'Объявленный',
+  'startrocc' => '',
+)POST array (
+  'admin' => '',
+  'restid' => '9677226',
+  'date' => '2021-02-24',
+  'vid' => 'Объявленный',
+  'startrocc' => '',
+)POST array (
+  'admin' => '',
+  'restid' => '12713',
+  'date' => '2021-02-26',
+  'vid' => 'Объявленный',
+  'startrocc' => '',
+)POST array (
+  'admin' => '',
+  'restid' => '12712',
+  'date' => '2021-02-26',
+  'vid' => 'neobyavlen',
+  'startrocc' => '',
+)POST array (
+  'admin' => '',
+  'restid' => '12712',
+  'date' => '2021-02-26',
+  'vid' => 'obyavlen',
+)
