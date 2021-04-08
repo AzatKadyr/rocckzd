@@ -1,0 +1,13 @@
+{
+  "name": "Rocc.kz - аудит операционного соответствия ресторана стандартам бренда",
+  "short_name": "Rocc.kz",
+  "lang": "ru-RU",
+  "start_url": "https://dev.rocc.kz/",
+  "display": "fullscreen",
+  "theme_color": "#0B1907",
+  "icons": [
+    {
+      "src": "http://dev.rocc.kz/img/image/logoreport.png"
+    }
+  ]
+}
