@@ -1,7 +1,7 @@
 <?php
 //
 require_once 'oop.php';
-$token = '1616234885:AAH7j40xp-WZfFJXHtx9DmIzUSH76xEZZN8';
+$token = '1012040761:AAHJnozJada_Z5XAypsAFl-3DYvJNJUb3HE';
 $data = file_get_contents('php://input');
 $data = json_decode($data, true);
 //file_put_contents(__DIR__ . '/message.txt', print_r($data, true));
@@ -177,7 +177,7 @@ $uslovie = check_for_number($text);
 function sendPa($chatid, $photo)
 {
 
-    $token = '1616234885:AAH7j40xp-WZfFJXHtx9DmIzUSH76xEZZN8';
+    $token = '1012040761:AAHJnozJada_Z5XAypsAFl-3DYvJNJUb3HE';
     $response = array(
         'chat_id' => $chatid,
         'photo' => curl_file_create(__DIR__ . '/uploads/bot/1.jpg')
@@ -196,7 +196,7 @@ function sendPa($chatid, $photo)
 function sendPb($chatid, $photo)
 {
 
-    $token = '1616234885:AAH7j40xp-WZfFJXHtx9DmIzUSH76xEZZN8';
+    $token = '1012040761:AAHJnozJada_Z5XAypsAFl-3DYvJNJUb3HE';
     $response = array(
         'chat_id' => $chatid,
         'photo' => curl_file_create(__DIR__ . '/uploads/bot/2.jpg')
@@ -216,7 +216,7 @@ function sendPb($chatid, $photo)
 function sendPc($chatid, $photo)
 {
 
-    $token = '1616234885:AAH7j40xp-WZfFJXHtx9DmIzUSH76xEZZN8';
+    $token = '1012040761:AAHJnozJada_Z5XAypsAFl-3DYvJNJUb3HE';
     $response = array(
         'chat_id' => $chatid,
         'photo' => curl_file_create(__DIR__ . '/uploads/bot/3.jpg')

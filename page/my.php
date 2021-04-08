@@ -4,6 +4,7 @@ $data = countProcent($user['user']['user_restid']);
 //print_r($user);
 ?>
 <div class="" role="alert" id="my_message">
+    <div class="table-responsive">
     <div class="row">
     <div class="col-5">
         <img src="/uploads/img/<?php echo $user['user']['user_img']; ?>" height="320" width="240" class="img-fluid" alt="...">
@@ -160,5 +161,6 @@ $data = countProcent($user['user']['user_restid']);
               </div>
         </div>
       </div>
+</div>
 </div>
 </div>

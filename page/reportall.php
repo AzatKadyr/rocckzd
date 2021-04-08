@@ -17,6 +17,7 @@ $dateb = date("Y-m-01");
 <p>
     <div class="card"  id="filter">
   <div class="card-body">
+       
     <div >
 Период: <input type="datetime" id="datea" value="<?php  echo $dateb;?> 00:00:00"> <input type="datetime" id="dateb" value="<?php global $datea; echo $datea;?> 23:59:59"> 
 Показать: <select id="typed" class="">
@@ -34,6 +35,7 @@ $dateb = date("Y-m-01");
   </div>
 </div>
 </div>
+<div class="table-responsive">
 <table class="table table-striped table-bordered" id="datab">
   <thead>
     <tr>
@@ -49,6 +51,6 @@ $dateb = date("Y-m-01");
   </tbody>
 </table>
 <div class="row" id="pagem">
-
+</div>
 </div>
 </div>

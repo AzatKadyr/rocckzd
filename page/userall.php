@@ -3,20 +3,21 @@
 <button type="button"  onclick="history.back();" class="btn btn-secondary btn-sm">Назад</button>
 </div>
 <p></p>
-
+<div class="table-responsive">
 <table class="table table-striped" id="datab">
   <thead>
     <tr>
       <th scope="col">ID</th>
       <th scope="col">Ресторан</th>
       <th scope="col">Email</th>
-      <th scope="col">Директор</th>
-      <th scope="col">Адрес</th>
+      <th scope="col">Компания</th>
+      <th scope="col">Телефон</th>
     </tr>
   </thead>
-  <tbody id="resultrest">
+  <tbody id="resultuser">
   </tbody>
 </table>
+</div>
 </div>
 
 <!-- Модальное окно -->
@@ -32,33 +33,36 @@
       <div class="modal-body">
           <div class="" id="addrest_message" role="alert"></div>
           <div class="form-group">
-    <label for="restname">Название ресторана</label> 
-    <input id="restname" name="restname" type="text" class="form-control">
+    <label for="restname">Имя</label> 
+    <input id="username" name="username" type="text" class="form-control">
   </div>
   <div class="form-group">
-    <label for="restid">ID ресторана</label> 
-    <input id="restid" name="restid" type="text" class="form-control">
-  </div>
-  <div class="form-group">
-    <label for="restemail">Email</label> 
-    <input id="restemail" name="restemail" type="text" class="form-control">
-  </div>
-  <div class="form-group">
-    <label for="dirname">Директор</label> 
+    <label for="rest">Ресторан</label> 
     <div>
-      <select id="dirname" name="dirname" class="custom-select">
+      <select id="userrest" name="userrest" class="custom-select">
       </select>
     </div>
   </div>
   <div class="form-group">
-    <label for="adress">Адрес ресторана</label> 
-    <input id="adress" name="adress" type="text" class="form-control">
+    <label for="restemail">Email</label> 
+    <input id="useremail" name="useremail" type="text" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="dirname">Должность</label> 
+    <div>
+      <select id="uservac" name="uservac" class="custom-select">
+      </select>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="adress">Пароль</label> 
+    <input id="userpassword" name="userpassword" type="text" class="form-control">
   </div> 
  
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
-        <button type="button" id="addrestbtn" class="btn btn-primary">Добавить</button>
+        <button type="button" id="adduserbtn" class="btn btn-primary">Добавить</button>
       </div>
     </div>
   </div>

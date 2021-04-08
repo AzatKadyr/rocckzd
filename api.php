@@ -24,9 +24,28 @@ if ($_GET['type'] == "generatepdf")
     echo json_encode($data);
 }
 
+if ($_GET['type'] == "getlastotkl")
+{
+    $data = getLastOtkl();
+    echo json_encode($data);
+}
+
 if ($_GET['type'] == "getuserinfo")
 {
     $data = userInfo($_GET['userid']);
+    echo json_encode($data);
+}
+
+if ($_GET['type'] == "getplanned")
+{
+    $data = getPlanned('1');
+print_r($data);
+
+}
+
+if ($_GET['type'] == "getmon")
+{
+    $data = getMon();
     echo json_encode($data);
 }
 
@@ -64,8 +83,8 @@ if ($_GET['type'] == "sendmessagechat")
 
 if ($_GET['type'] == "azatt")
 {
-    $data = validateRoccCategory("1");
-    print_r($data);
+    $data = spisanieBalans("1","5000");
+    print_r($aza);
     //echo json_encode($data);
     
 }
@@ -84,9 +103,44 @@ if ($_GET['type'] == "getlevel")
     
 }
 
+
+
+if ($_GET['type'] == "deletereport")
+{
+    global $token;
+    $data = deleteReport($_GET['reportid']);
+    echo json_encode($data);
+    //print_r($data);
+    //echo $token;
+}
+
+
 if ($_GET['type'] == "getaza")
 {
-    $data = proverkaSession($_COOKIE['PHPSESSID']);
+    global $token;
+    $data = getConfig();
+    //echo json_encode($data);
+    //print_r($data);
+    echo $token;
+}
+
+if ($_GET['type'] == "getuseredit")
+{
+    $data = getEdit();
+    echo json_encode($data);
+    //print_r($data);
+}
+
+if ($_GET['type'] == "clearotkl")
+{
+    $data = clearOtkl($_GET['reportid']);
+    echo json_encode($data);
+   // print_r($data);
+}
+
+if ($_GET['type'] == "bottt")
+{
+    $data = botBot();
     //echo json_encode($data);
     print_r($data);
 }

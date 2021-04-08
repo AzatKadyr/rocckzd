@@ -48,7 +48,7 @@ if(isset($_POST) and $_SERVER['REQUEST_METHOD'] == "POST")
          //$res=$mysqli->query("INSERT INTO `otklimg` (`id`, `img`, `otklid`, `reportid`, `createtime`) VALUES (NULL, '$bb', '$otklid', '$reportid', '$datea')");
          //mysql_query("INSERT INTO otklimg(img,otklid,reportid,createtime VALUES('$bb','5','24','2021-03-04 14:47:32')");
         
-        $imgObject->resizeProportional($newname, $newnameSmall, 600, 600, 100);
+        $imgObject->resizeProportional($newname, $newnameSmall, 800, 800, 200);
          }
          else
          {

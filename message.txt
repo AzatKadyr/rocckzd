@@ -1,0 +1,45 @@
+Array
+(
+    [update_id] => 952459025
+    [message] => Array
+        (
+            [message_id] => 1160
+            [from] => Array
+                (
+                    [id] => 430768369
+                    [is_bot] => 
+                    [first_name] => Aza
+                    [username] => a9677226
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 430768369
+                    [first_name] => Aza
+                    [username] => a9677226
+                    [type] => private
+                )
+
+            [date] => 1616870048
+            [document] => Array
+                (
+                    [file_name] => IMG_2664.jpg
+                    [mime_type] => image/jpeg
+                    [thumb] => Array
+                        (
+                            [file_id] => AAMCAgADGQEAAgSIYF96oLn7Tx_hix2LTXp4P8XG0JkAAusPAAKHdfhKYSchKd4chFlGy22iLgADAQAHbQADsywAAh4E
+                            [file_unique_id] => AQADRsttoi4AA7MsAAI
+                            [file_size] => 29763
+                            [width] => 320
+                            [height] => 213
+                        )
+
+                    [file_id] => BQACAgIAAxkBAAIEiGBfeqC5-08f4Ysdi016eD_FxtCZAALrDwACh3X4SmEnISneHIRZHgQ
+                    [file_unique_id] => AgAD6w8AAod1-Eo
+                    [file_size] => 848148
+                )
+
+        )
+
+)

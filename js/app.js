@@ -8,6 +8,7 @@
     $("#closemod").hide(); 
     $("#filter").hide();
     $("#uploadphoto").hide();
+    eddA();
     
     $('.button--excel').attr('disabled', false);
     var excel_data = $('#report_table').html(); 
@@ -212,7 +213,16 @@ function uploadPhoto(){
       })
 
     }
+    
+    function eddA(){
+    
+    tableHTMLdd = "";
+    tableHTMLdd = "Временно отключили";
+    
+     $("#addedotkl").html(tableHTMLdd);
 
+    }
+    
     function getActionPlan(reportid){
 
       $.get("api.php", {
@@ -388,6 +398,23 @@ function uploadPhoto(){
 
     }
     
+    function deleteRocc(reportid){
+
+      $.get("api.php", {
+        
+       "type": "deletereport",
+       "reportid": reportid
+
+      }, function(data){
+
+        data = JSON.parse(data);
+        ////console.log(data);
+        if(data['status']=='OK'){
+            window.location.href = '/index.php?menu=reportall';
+        }
+      })
+
+    }
     
     function saveEditOtkl(id,mintext,fulltext){
 
@@ -405,6 +432,24 @@ function uploadPhoto(){
         if(data['status']=='OK'){
             getRocc($("#reportid").val());
             $('#editTextModal').modal('hide')
+        }
+      })
+
+    }
+    
+    function clearOtkl(reportid){
+
+      $.get("api.php", {
+        
+       "type": "clearotkl",
+       "reportid": reportid
+
+      }, function(data){
+
+        data = JSON.parse(data);
+        ////console.log(data);
+        if(data['status']=='OK'){
+            getRocc($("#reportid").val());
         }
       })
 
@@ -1019,7 +1064,7 @@ function uploadPhoto(){
           $('#loadmodal').modal('hide')
            $("#closemod").show();
           $("#load_message").attr('class', 'alert alert-danger');
-          $("#load_message").html(data['message']+' ID:'+data['otklid']+' Текст:'+data['mintext']);
+          $("#load_message").html(data['message']);
         }
         
         ////console.log(data);

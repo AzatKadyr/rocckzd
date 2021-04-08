@@ -3,7 +3,7 @@
 <button type="button"  onclick="history.back();" class="btn btn-secondary btn-sm">Назад</button>
 </div>
 <p></p>
-
+<div class="table-responsive">
 <table class="table table-striped" id="datab">
   <thead>
     <tr>
@@ -17,6 +17,7 @@
   <tbody id="resultrest">
   </tbody>
 </table>
+</div>
 </div>
 
 <!-- Модальное окно -->

@@ -21,7 +21,8 @@ $restid = 1;
     Действие
   </button>
   <div class="dropdown-menu">
-    <a class="dropdown-item" href="#">Сохранить</a>
+    <a class="dropdown-item" onclick="clearOtkl(<?php echo $reportid; ?>)" href="#">Очистить все</a>
+    <a class="dropdown-item" onclick="deleteRocc(<?php echo $reportid; ?>)" href="#">Удалить аудит</a>
     <div class="dropdown-divider"></div>
     <a class="dropdown-item" id="finalbtn" href="#">Завершить</a>
   </div>
@@ -105,7 +106,7 @@ $restid = 1;
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body" id="addedotkl">
          <div class="form-group">
     <label for="mintext">Краткое описание</label> 
     <input id="mintext" name="mintext" type="text" class="form-control" required="required">

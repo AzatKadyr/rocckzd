@@ -14,7 +14,7 @@ $data = getRocc($_GET['id']);
   </button>
   <div class="dropdown-menu">
     <a class="dropdown-item" onclick="editRocc('<?php echo $_GET['id'];?>','start')" href="#">Отменить</a>
-    <a class="dropdown-item" href="#">Удалить</a>
+    <a class="dropdown-item" onclick="deleteRocc(<?php echo $_GET['id'];?>)" href="#">Удалить аудит</a>
     <div class="dropdown-divider"></div>
     <a class="dropdown-item" onclick="generatePdf('reportpdf','<?php echo $_GET['id'];?>')" href="#">Скачать</a>
   </div>

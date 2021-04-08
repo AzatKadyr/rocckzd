@@ -7,23 +7,131 @@ include "libs/qr/qrlib.php";
 require_once 'libs/Api2Pdf.php';
 require_once 'libs/ApiResult.php';
 require 'libs/mail/phpmailer/PHPMailerAutoload.php';
+require 'libs/calendar.php';
 require 'libs/pdfcrowd.php';
 include ("SxGeo.php");
 $SxGeo = new SxGeo('SxGeo.dat');
 use Api2Pdf\Api2Pdf;
 //* Подключаемые библиотеки
+date_default_timezone_set('Asia/Almaty');
 $datea = date("Y-m-d H:i:s");
-
+$sysconfig = getConfig();
+$token = $sysconfig[0]['telegram_token'];
 $session = proverkaSession($_COOKIE['PHPSESSID']);
 
 if ($session['status'] == "NO")
 {
     session_start();
-    setcookie('auth', '', time() + (-86400 * 5) , '/', 'rocc.kz');
-    setcookie('userid', '', time() + (-86400 * 5) , '/', 'rocc.kz');
-    setcookie('company', '', time() + (-86400 * 5) , '/', 'rocc.kz');
+    setcookie('auth', '', time() + (-86400 * 5) , '/', 'roccc.top');
+    setcookie('userid', '', time() + (-86400 * 5) , '/', 'roccc.top');
+    setcookie('company', '', time() + (-86400 * 5) , '/', 'roccc.top');
 }
 
+// balans
+
+function addPayment($companyid, $value, $type, $comment, $author)
+{
+    global $datea;
+
+    $user = R::dispense('payment');
+    $user->userid = "";
+    $user->companyid = $companyid;
+    $user->isdeleted = "0";
+    $user->createtime = $datea;
+    $user->value = $value;
+    $user->type = $type;
+    $user->comment = $comment;
+    $user->author = $author;
+    R::store($user);
+
+    return null;
+}
+
+function blockedCompany($companyid, $value)
+{
+    global $datea;
+    global $mysqli;
+
+    $res = $mysqli->query("UPDATE company SET blocked = '1' WHERE id = '$companyid'");
+    
+    $user = R::dispense('nopay');
+    $user->companyid = $companyid;
+    $user->isdeleted = "0";
+    $user->createtime = $datea;
+    $user->value = $value;
+    R::store($user);
+
+    return null;
+}
+
+function spisanieBalans($company,$money)
+{
+
+ for ($i = 0;$i < sizeof($company);$i++)
+    {
+        if ($company[$i]['balans']>= $money)
+        {
+          $data = addPayment($company[$i]['id'], -$money, "outpay", "Списание за тарифный план", 1);
+        }else{
+            $proverka = proverkaBlock($company);
+            if($proverka['status']=="OK"){
+               $data = blockedCompany($company[$i]['id'], -$money); 
+            }else{
+              //sendemail
+            }
+            
+        }
+    }
+
+    return $data;
+}
+
+function botDaemon()
+{
+
+    global $mysqli;
+
+    $res = $mysqli->query("
+SELECT * 
+FROM nopay
+WHERE isdeleted = 0
+");
+    foreach ($res as $value)
+    {
+        $users[] = $value;
+    }
+
+   	 for ($i = 0;$i < sizeof($users);$i++)
+    {
+        $data = spisanieBalans($users[$i]['companyid'],$users[$i]['value']);
+   }
+
+    return null;
+}
+
+function getBalansCompany()
+{
+
+    global $mysqli;
+
+    $res = $mysqli->query("
+SELECT 
+c.*,
+SUM(p.value) balans
+FROM company c
+LEFT JOIN payment p
+ON c.id = p.companyid
+GROUP BY c.id
+    ");
+    foreach ($res as $value)
+    {
+        $users[] = $value;
+    }
+
+    return $users;
+}
+
+// balans
 //* Данные о пользователе
 function getIpInfo()
 {
@@ -67,6 +175,34 @@ WHERE telegram = '$login'
     }
     return $data;
 }
+
+function proverkaBlock($companyid)
+{
+
+    global $mysqli;
+
+    $res = $mysqli->query("
+SELECT * 
+FROM nopay
+WHERE companyid = '$companyid'
+AND isdeleted = 0
+    ");
+    foreach ($res as $value)
+    {
+        $users[] = $value;
+    }
+    if ($users == null)
+    {
+        $data['status'] = "OK";
+    }
+    else
+    {
+        $data['status'] = "NO";
+        $data['user'] = $users[0];
+    }
+    return $data;
+}
+
 
 function getUserByIda($login)
 {
@@ -126,6 +262,64 @@ WHERE u.id = '$login'
     }
 
     return $users[0];
+}
+
+function getPlanned($userid)
+{
+
+    global $mysqli;
+
+    $res = $mysqli->query("
+SELECT
+DATE_FORMAT(p.plannedtime, '%d.%m') as calendar,
+p.id plan_id,
+p.author plan_author_id,
+u.name plan_author_name,
+p.auditor plan_auditor_id,
+us.name plan_auditor_name,
+p.createtime plan_createtime,
+p.plannedtime plan_plantime,
+p.reportid plan_reportid,
+rrr.opendate plan_report_starttime,
+rrr.closedate plan_report_closetime,
+rs.statusname plan_report_status_name,
+s.statusname plan_statusname,
+p.status plan_status,
+r.restname plan_restname,
+r.adress plan_rest_adress,
+r.img plan_rest_img
+FROM planned p
+LEFT JOIN rest r
+ON p.restid = r.restid
+LEFT JOIN users u
+ON p.author = u.id
+LEFT JOIN users us
+ON p.auditor = us.id
+LEFT JOIN status s
+ON p.status = s.statusid
+LEFT JOIN rocc rrr
+ON p.reportid = rrr.id
+LEFT JOIN status rs
+ON rrr.status = rs.statusid
+WHERE p.auditor = '$userid'
+    ");
+    foreach ($res as $value)
+    {
+        $users[] = $value;
+    }
+
+for ($i = 0;$i < sizeof($users);$i++)
+    {
+$events[]="";
+$events= array(
+	$users[$i]['calendar']   => "2222"
+);
+    }
+
+    $data['spisok'] = $events;
+    $data['calendar'] = $users;
+    
+    return $data;
 }
 
 function userInfo($userid){
@@ -295,13 +489,13 @@ function auth($userid)
 {
     $user = getUser($userid);
     session_start();
-    setcookie('auth', '1', time() + (-86400 * 5) , '/', 'rocc.kz');
-    setcookie('userid', $userid['id'], time() + (-86400 * 5) , '/', 'rocc.kz');
-    setcookie('company', $user['companyid'], time() + (-86400 * 5) , '/', 'rocc.kz');
+    setcookie('auth', '1', time() + (-86400 * 5) , '/', 'roccc.top');
+    setcookie('userid', $userid['id'], time() + (-86400 * 5) , '/', 'roccc.top');
+    setcookie('company', $user['companyid'], time() + (-86400 * 5) , '/', 'roccc.top');
 
-    setcookie('auth', '1', time() + (86400 * 5) , '/', 'rocc.kz');
-    setcookie('userid', $userid['id'], time() + (86400 * 5) , '/', 'rocc.kz');
-    setcookie('company', $user['companyid'], time() + (86400 * 5) , '/', 'rocc.kz');
+    setcookie('auth', '1', time() + (86400 * 5) , '/', 'roccc.top');
+    setcookie('userid', $userid['id'], time() + (86400 * 5) , '/', 'roccc.top');
+    setcookie('company', $user['companyid'], time() + (86400 * 5) , '/', 'roccc.top');
 
     $data['status'] = "OK";
     $aza = saveSession($_COOKIE['PHPSESSID'], $userid['id']);
@@ -360,8 +554,8 @@ function proverkaSession($sessionid)
 //* Авторизация и сессии
 function sendBot($message)
 {
-
-    $token = '1798024308:AAEdRfCQ0w4_XmfiKQxMhaN4yUOHGEuMy1w';
+    global $token;
+    //$token = '1012040761:AAHJnozJada_Z5XAypsAFl-3DYvJNJUb3HE';
     //$chatid = "430768369";
     $chatid = "-1001434933289";
     $response = array(
@@ -381,8 +575,8 @@ function sendBot($message)
 
 function sendBotCorona($message)
 {
-
-    $token = '1798024308:AAEdRfCQ0w4_XmfiKQxMhaN4yUOHGEuMy1w';
+    global $token;
+    //$token = '1012040761:AAHJnozJada_Z5XAypsAFl-3DYvJNJUb3HE';
     $chatid = "430768369";
     //$chatid = "-1001434933289";
     $response = array(
@@ -443,8 +637,8 @@ function pingCheck($url)
 
 function reReportid($reportid)
 {
-    setcookie('r_reportid', $reportid, time() + (-86400 * 5) , '/', 'rocc.kz');
-    setcookie('r_reportid', $reportid, time() + (86400 * 5) , '/', 'rocc.kz');
+    setcookie('r_reportid', $reportid, time() + (-86400 * 5) , '/', 'roccc.top');
+    setcookie('r_reportid', $reportid, time() + (86400 * 5) , '/', 'roccc.top');
 
     return null;
 }
@@ -454,7 +648,7 @@ function generateQr($reportid)
 
     $filename = "img/qr/$reportid.png";
 
-    QRcode::png("http://dev.rocc.kz/view.php?reportid=$reportid", $filename, "H", 4, 4);
+    QRcode::png("http://dev.roccc.top/view.php?reportid=$reportid", $filename, "H", 4, 4);
 
     return $filename;
 }
@@ -479,7 +673,7 @@ function generatePdfB($type, $reportid)
             $api->setPageSize("A4");
             $api->setOrientation("portrait");
             $api->setPageMargins('0cm', '0cm', '0cm', '0cm');
-            $api->convertUrlToFile("http://dev.rocc.kz/generatepdf.php?reportid=$reportid", "reports/".$reportid."/report.pdf");
+            $api->convertUrlToFile("http://dev.roccc.top/generatepdf.php?reportid=$reportid", "reports/".$reportid."/report.pdf");
         }
     }
 
@@ -502,22 +696,34 @@ function generatePdf($type, $reportid)
         }
         else
         {
-            $apiClient = new Api2Pdf('b48ef72f-cd91-4a99-9079-a7c9f6cb1ea2');
+            $apiClient = new Api2Pdf('6488fb71-cc3a-4a59-a36e-e850035ba845');
             $filename = "report_" . $reportid . ".pdf";
             $apiClient->setInline(true);
             $apiClient->setFilename($filename);
             $apiClient->setOptions(['orientation' => 'portrait', 'pageSize' => 'A4', 'marginBottom' => '0', 'marginLeft' => '0', 'marginTop' => '0', 'marginRight' => '0', 'title' => $filename
 
             ]);
-            $result = $apiClient->wkHtmlToPdfFromUrl('http://dev.rocc.kz/generatepdf.php?reportid=' . $reportid);
+            $result = $apiClient->wkHtmlToPdfFromUrl('http://dev.roccc.top/generatepdf.php?reportid=' . $reportid);
 
             $data['status'] = "OK";
             $data['url'] = $result->getPdf();
+            $data['server'] = savePdfServer($data['url'],$reportid);
         }
     }
 
     return $data;
 
+}
+
+function savePdfServer($url,$reportid)
+{	
+	$datea = date("YmdHis");
+    //$url = 'https://storage.googleapis.com/a2p-v2-storage/914b1c04-cf7e-48b6-b03d-6b5c3ea4f588';
+    $dir = '/report/report_'.$reportid.'_'.$datea.'.pdf';
+	$path = $_SERVER['DOCUMENT_ROOT'] . $dir;
+	file_put_contents($path, file_get_contents($url));
+	$dir = 'report/report_'.$reportid.'_'.$datea.'.pdf';
+    return $dir;
 }
 
 function addMessage($chatid, $author, $message)
@@ -538,8 +744,8 @@ function addMessage($chatid, $author, $message)
 
 function sendMes($chatid, $message)
 {
-
-    $token = '1616234885:AAH7j40xp-WZfFJXHtx9DmIzUSH76xEZZN8';
+    global $token;
+    //$token = '1012040761:AAHJnozJada_Z5XAypsAFl-3DYvJNJUb3HE';
     $response = array(
         'chat_id' => $chatid,
         'text' => $message
@@ -571,6 +777,24 @@ GROUP BY chatid DESC
         $data[] = $value;
     }
 
+    return $data;
+}
+
+function deleteReport($reportid)
+{
+
+    global $mysqli;
+
+    $res = $mysqli->query("
+UPDATE rocc r
+SET r.isdeleted = 1
+WHERE r.id = '$reportid'
+");
+    foreach ($res as $value)
+    {
+        $data[] = $value;
+    }
+    $data['status'] = "OK";
     return $data;
 }
 
@@ -663,9 +887,83 @@ function addOtkl($mintext, $fulltext, $category, $subcategory, $restid, $reporti
     return $user['id'];
 }
 
-function sendEmail($reportid, $email)
+function botBot()
 {
 
+    global $mysqli;
+
+    $res = $mysqli->query("
+SELECT *
+FROM ochered
+WHERE isdeleted = 0
+AND status = 'start'
+");
+    foreach ($res as $value)
+    {
+        $users[] = $value;
+    }
+
+   	 for ($i = 0;$i < sizeof($users);$i++)
+    {
+        if ($users[$i]['status'] === "start")
+        {
+            $data = getDannye($users[$i]['reportid']);
+            sendEmail($users[$i]['reportid'], $data['rest_email'], $data['auditor_email'], $data['company_email'], $data['rocc_resultname'], $data['rest_name'], $data['dir_telegram']);
+            deleteOchered($users[$i]['reportid']);
+        }
+   }
+
+    return null;
+}
+
+
+
+function getDannye($reportid)
+{
+
+    global $mysqli;
+
+    $res = $mysqli->query("
+SELECT 
+r.result rocc_result_id,
+res.resultname rocc_resultname,
+r.restid rocc_restid,
+rr.email rest_email,
+rr.restname rest_name,
+u.email auditor_email,
+u.name auditor_name,
+c.companyname company_name,
+c.email company_email,
+us.telegram dir_telegram
+FROM rocc r
+LEFT JOIN rest rr
+ON r.restid = rr.restid
+LEFT JOIN users u
+ON r.auditor = u.id
+LEFT JOIN users us
+ON rr.restmng = us.id
+LEFT JOIN company c
+ON r.company = c.id
+LEFT JOIN result res
+ON r.result = res.id
+WHERE r.id = $reportid
+");
+    foreach ($res as $value)
+    {
+        $data[] = $value;
+    }
+
+    return $data[0];
+}
+
+function sendEmail($reportid, $email, $auditor, $tu, $result, $restname, $chatid)
+{
+
+	$file = generatePdf("final", $reportid);
+	$reportpdf = $file['server'];
+	$pdf = "/".$file['server'];
+	$text = "Ресторан: ".$restname.", результат аудита: ".$result;
+	sendReportTelegram($chatid, $pdf, $text);
     $mail = new PHPMailer;
 
     $mail->isSMTP();
@@ -678,19 +976,21 @@ function sendEmail($reportid, $email)
     $mail->Port = '465';
 
     $mail->CharSet = 'UTF-8';
-    $mail->From = $email; // адрес почты, с которой идет отправка
-    $mail->FromName = $email; // имя отправителя
+    $mail->From = "9677226@mail.ru"; // адрес почты, с которой идет отправка
+    $mail->FromName = "9677226@mail.ru"; // имя отправителя
     $mail->addAddress($email, 'Имя');
+    $mail->addAddress($tu); // Email получателя
+	$mail->addAddress($auditor); // Еще один email, если 
     //$mail->addAddress($tu, 'Имя 2');
     $mail->addCC($email);
 
     $mail->isHTML(true);
-    $file = generatePdf("1", $reportid);
-    $filename = $file['url'];
-    $mail->Subject = 'Тема письма';
-    $mail->Body = "Текст письма";
+    //$file = generatePdf("1", $reportid);
+    //$filename = $file['url'];
+    $mail->Subject = 'Отчет проведенного аудита. Ресторан: '.$restname.' Результат аудита: '.$result;
+    $mail->Body = "Отчет проведенного аудита во вложении к письму";
     $mail->AltBody = 'Azat Kadyr';
-    $mail->addAttachment($filename);
+    $mail->addAttachment($reportpdf);
     if (!$mail->send())
     {
         echo 'Ошибка при отправке. Ошибка: ' . $mail->ErrorInfo;
@@ -710,7 +1010,8 @@ function startReport($type, $restid)
     if (isset($restid))
     {
         if (isset($type))
-        {
+        {   
+            addHistory($reportid,"start",$_COOKIE['userid']);
             $user = userInfo($_COOKIE['userid']);
             if($user['user']['user_vac'] == "2"){
                 
@@ -728,8 +1029,8 @@ function startReport($type, $restid)
             $data['status'] = "OK";
             $data['reportid'] = $user['id'];
 
-            setcookie('r_reportid', $user['id'], time() + (-86400 * 5) , '/', 'rocc.kz');
-            setcookie('r_reportid', $user['id'], time() + (86400 * 5) , '/', 'rocc.kz');
+            setcookie('r_reportid', $user['id'], time() + (-86400 * 5) , '/', 'roccc.top');
+            setcookie('r_reportid', $user['id'], time() + (86400 * 5) , '/', 'roccc.top');
             
         }else{
             $data['status'] = "NO";
@@ -752,6 +1053,43 @@ function startReport($type, $restid)
 
 }
 
+function sendMail($email,$message,$subject)
+{
+
+    $mail = new PHPMailer;
+
+    $mail->isSMTP();
+
+    $mail->Host = 'smtp.mail.ru';
+    $mail->SMTPAuth = true;
+    $mail->Username = "9677226@mail.ru"; // логин от вашей почты
+    $mail->Password = "Umag2020!"; // пароль от почтового ящика
+    $mail->SMTPSecure = 'ssl';
+    $mail->Port = '465';
+
+    $mail->CharSet = 'UTF-8';
+    $mail->From = "9677226@mail.ru"; // адрес почты, с которой идет отправка
+    $mail->FromName = "9677226@mail.ru"; // имя отправителя
+    $mail->addAddress($email, 'Имя');
+
+    $mail->isHTML(true);
+    //$file = generatePdf("1", $reportid);
+    //$filename = $file['url'];
+    $mail->Subject = $subject;
+    $mail->Body = $message;
+    $mail->AltBody = 'Azat Kadyr';
+    if (!$mail->send())
+    {
+        echo 'Ошибка при отправке. Ошибка: ' . $mail->ErrorInfo;
+    }
+    else
+    {
+
+    }
+    return null;
+
+}
+
 function startReportB($type, $restid, $userid, $company)
 {
     global $datea;
@@ -760,7 +1098,7 @@ function startReportB($type, $restid, $userid, $company)
     {
         if (isset($type))
         {
-
+            addHistory($reportid,$type,$userid);
             $user = R::dispense('rocc');
             $user->company = $company;
             $user->restid = $restid;
@@ -785,8 +1123,8 @@ function startReportB($type, $restid, $userid, $company)
             $userb->reportid = $user['id'];
             R::store($userb);
 
-            setcookie('r_reportid', $user['id'], time() + (-86400 * 5) , '/', 'rocc.kz');
-            setcookie('r_reportid', $user['id'], time() + (86400 * 5) , '/', 'rocc.kz');
+            setcookie('r_reportid', $user['id'], time() + (-86400 * 5) , '/', 'roccc.top');
+            setcookie('r_reportid', $user['id'], time() + (86400 * 5) , '/', 'roccc.top');
 
         }
         else
@@ -890,6 +1228,7 @@ FROM otkloneniya o
 WHERE o.category = $cat
 AND o.subcategory = $subcat
 AND o.reportid = $reportid
+AND o.isdeleted = 0
 ");
     foreach ($res as $value)
     {
@@ -1189,6 +1528,8 @@ function proverkaRocc($reportid, $value, $result)
             $user = userInfo($_COOKIE['userid']);
             if($user['user']['user_vac'] == "2"){
                 editedRocc($reportid, $value, "14");
+                addHistory($reportid,"restart",$_COOKIE['userid']);
+                deleteOchered($reportid);
             $data['status'] = "OK";
         }else{
             $data['status'] = "NO";
@@ -1226,8 +1567,11 @@ function proverkaRocc($reportid, $value, $result)
                     if($b['status']=="NO"){
                         $data = $b;
                     }else{
-                        $mail = sendEmail($reportid, $pr['info']['rest_email']);
+                        //$mail = sendEmail($reportid, $pr['info']['rest_email']);
                         editedRocc($reportid, $value, $result);
+                        addHistory($reportid,"final",$_COOKIE['userid']);
+                        endQuickRocc($reportid);
+                        addOchered($reportid);
                         $data['status'] = "OK";
                     }
                     
@@ -1241,7 +1585,7 @@ function proverkaRocc($reportid, $value, $result)
 
 function editedRocc($reportid, $value, $result)
 {
-
+    
     global $mysqli;
 
     $res = $mysqli->query("
@@ -1367,6 +1711,19 @@ AND userid = '$login'
     return $data;
 }
 
+function endQuickRocc($reportid)
+{
+
+    global $mysqli;
+
+    $res = $mysqli->query("
+UPDATE quickrocc 
+SET status = 'final' 
+WHERE reportid='$reportid'
+    ");
+
+    return null;
+}
 /*
 
 */
@@ -1481,6 +1838,7 @@ function getCountNezaversh($restid)
   WHERE auditor = $userid
   AND status = 'start'
   AND restid = $restid
+  AND isdeleted = 0
   ");
     foreach ($res as $value)
     {
@@ -1973,6 +2331,25 @@ AND s.isdeleted = '0'
     return $users;
 }
 
+function deleteOchered($reportid)
+
+{
+//ne dorabotan
+    global $mysqli;
+    global $datea;
+
+    $res = $mysqli->query("
+UPDATE ochered 
+SET status = 'final',
+finaltime = '$datea'
+WHERE reportid = '$reportid'
+AND status = 'start' 
+AND isdeleted = '0'
+    ");
+
+    return null;
+}
+
 function deleteSession($id)
 {
 
@@ -2174,6 +2551,29 @@ WHERE restmng = '$userid'
     return $users;
 }
 
+function getConfig()
+{
+
+    global $mysqli;
+
+    $res = $mysqli->query("
+SELECT 
+s.url site_url,
+s.offline site_offline,
+s.tlgrmtoken telegram_token
+FROM sys_config s
+WHERE s.id = 1
+    ");
+
+    foreach ($res as $value)
+    {
+        $users[] = $value;
+    }
+
+    return $users;
+
+}
+
 function validateRocc($reportid)
 {
 
@@ -2185,6 +2585,7 @@ FROM otkloneniya
 WHERE LENGTH(mintext)<=2
 AND LENGTH(fultext)<=2
 AND reportid = '$reportid'
+AND isdeleted = 0
     ");
 
     foreach ($res as $value)
@@ -2214,6 +2615,7 @@ FROM otkloneniya
 WHERE category = '9'
 AND subcategory = '9'
 AND reportid = '$reportid'
+AND isdeleted = 0
     ");
 
     foreach ($res as $value)
@@ -2260,6 +2662,23 @@ AND reportid = '$reportid'
 
 }
 
+function clearOtkl($reportid)
+{
+    global $datea;
+    global $mysqli;
+
+    $res = $mysqli->query("
+UPDATE otkloneniya
+SET isdeleted = '1',
+deletetime = '$datea'
+WHERE reportid = '$reportid'
+    ");
+    
+    $data['status'] = "OK";
+    return $data;
+
+}
+
 function saveToken($userid, $token)
 
 {
@@ -2269,6 +2688,43 @@ function saveToken($userid, $token)
     $user->userid = $userid;
     $user->createtime = $datea;
     $user->token = $token;
+    $user->isdeleted = "0";
+    R::store($user);
+
+    return null;
+
+}
+
+
+function addOchered($reportid)
+
+{
+    global $datea;
+    $userid = $_COOKIE['userid'];
+
+    $user = R::dispense('ochered');
+    $user->userid = $userid;
+    $user->createtime = $datea;
+    $user->reportid = $reportid;
+    $user->status = "start";
+    $user->isdeleted = "0";
+    R::store($user);
+
+    return null;
+
+}
+
+function addHistory($reportid,$type)
+
+{
+    global $datea;
+    $userid = $_COOKIE['userid'];
+
+    $user = R::dispense('history');
+    $user->userid = $userid;
+    $user->createtime = $datea;
+    $user->reportid = $reportid;
+    $user->type = $type;
     $user->isdeleted = "0";
     R::store($user);
 
@@ -2374,6 +2830,41 @@ function getInfoBrowser()
     return $browserInfo;
 }
 
+function sendReportTelegram($chatid, $file, $text)
+{
+
+    //$token = '1012040761:AAHJnozJada_Z5XAypsAFl-3DYvJNJUb3HE';
+    global $token;
+    $response = array(
+        'chat_id' => $chatid,
+        'document' => curl_file_create(__DIR__ . $file),
+        'text' => 'Текст'
+    );
+
+    $ch = curl_init('https://api.telegram.org/bot' . $token . '/sendDocument');
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $response);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_HEADER, false);
+    curl_exec($ch);
+    curl_close($ch);
+
+    $response = array(
+        'chat_id' => $chatid,
+        'text' => $text
+    );
+
+    $ch = curl_init('https://api.telegram.org/bot' . $token . '/sendMessage');
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $response);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_HEADER, false);
+    curl_exec($ch);
+    curl_close($ch);
+
+    return null;
+}
+
 //upload photo
 
 function can_upload($file){
@@ -2422,5 +2913,191 @@ WHERE id = '$userid'
     return null;
 }
 
+function getVac()
+{
+
+    global $mysqli;
+
+    $res = $mysqli->query("
+SELECT * FROM vac
+");
+    foreach ($res as $value)
+    {
+        $data[] = $value;
+    }
+
+    return $data;
+}
+
+function getRestCom($companyid)
+{
+
+    global $mysqli;
+
+    $res = $mysqli->query("
+SELECT *
+FROM rest
+WHERE company = '$companyid'
+");
+    foreach ($res as $value)
+    {
+        $data[] = $value;
+    }
+
+    return $data;
+}
+
+function getEdit()
+{
+  $companyid = $_COOKIE['company'];
+  $data['vac'] = getVac();
+  $data['rest'] = getRestCom($companyid);
+
+    return $data;
+}
 //
+
+//admin
+
+function getMon()
+{
+
+    global $mysqli;
+
+    $res = $mysqli->query("
+    SELECT 
+		o.id	server_id,
+        o.status server_statusid,
+        DATE_FORMAT(o.createtime, '%d.%m.%Y %T') server_datea,
+        DATE_FORMAT(o.finaltime, '%d.%m.%Y %T') server_finaltime,
+        sts.statusname server_status,
+        sts.statuscss server_status_css,
+		r.id          rocc_id,
+       r.restid,
+       r.opendate    rocc_opentime,
+       r.closedate   rocc_closetime,
+       r.status      rocc_status,
+       s.statusname  rocc_statusname,
+       s.statuscss  rocc_statuscss,
+       r.comment     rocc_comment,
+       r.auditor     auditor_id,
+       r.istelegram    rocc_telegram,
+       u.name        auditor_name,
+       rr.restname   rest_name,
+       rr.restid     rest_id,
+       rr.img        rest_img,
+       rr.adress     rest_adress,
+       rr.email      rest_email,
+       c.companyname company_name,
+       c.id          company_id,
+       c.adress      company_adress,
+       a.id          actionplan_id,
+       a.createtime  actionplan_date,
+       ss.statusname actionplan_status,
+       ss.statuscss  actionplan_css,
+       rt.resultname rocc_result
+FROM ochered o
+		LEFT JOIN rocc r
+					ON o.reportid = r.id
+		LEFT JOIN users u
+                   ON r.auditor = u.id
+         LEFT JOIN status s
+                   ON r.status = s.statusid
+         LEFT JOIN rest rr
+                   ON r.restid = rr.restid
+         LEFT JOIN company c
+                   on c.id = r.company
+         LEFT JOIN actionplan a
+                   ON a.reportid = r.id
+         LEFT JOIN status ss
+                   ON a.status = ss.statusid
+         LEFT JOIN result rt
+                   ON r.result = rt.id
+         LEFT JOIN status sts
+         			ON o.status = sts.statusid
+         ORDER BY o.id DESC
+    ");
+
+    foreach ($res as $value)
+    {
+        $users[] = $value;
+    }
+
+    return $users;
+}
+
+function getLastOtkl()
+{
+
+    global $mysqli;
+
+    $res = $mysqli->query("
+SELECT
+o.id otkl_id,
+o.mintext otkl_mintext,
+o.category otkl_catid,
+o.subcategory otkl_subcatid,
+l.name otkl_category,
+ll.name otkl_subcategory,
+ll.css otkl_css
+FROM otkloneniya o
+LEFT JOIN level l
+ON o.category = l.id
+LEFT JOIN level ll
+ON o.subcategory = ll.id
+WHERE isdeleted = 0
+ORDER BY o.id DESC LIMIT 5
+    ");
+
+    foreach ($res as $value)
+    {
+        $users[] = $value;
+    }
+
+    return $users;
+}
+
+function getOtklId($otklid)
+{
+
+    global $mysqli;
+
+    $res = $mysqli->query("
+SELECT
+o.id otkl_id,
+o.mintext otkl_mintext,
+o.category otkl_catid,
+o.subcategory otkl_subcatid,
+o.img otkl_img,
+o.fultext otkl_fulltext,
+o.createtime otkl_date,
+l.name otkl_category,
+ll.name otkl_subcategory,
+ll.css otkl_css,
+rs.restname otkl_restname,
+us.name otkl_auditor
+FROM otkloneniya o
+LEFT JOIN level l
+ON o.category = l.id
+LEFT JOIN level ll
+ON o.subcategory = ll.id
+LEFT JOIN rocc rr
+ON o.reportid = rr.id
+LEFT JOIN rest rs
+ON rr.restid = rs.restid
+LEFT JOIN users us
+ON rr.auditor = us.id
+WHERE o.id = '$otklid'
+    ");
+
+    foreach ($res as $value)
+    {
+        $users[] = $value;
+    }
+
+    return $users;
+}
+
+
+//admin
 ?>
